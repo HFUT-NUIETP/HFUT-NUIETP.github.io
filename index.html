@@ -1,25 +1,29 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNSDMFFD9W"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-WNSDMFFD9W');
-  </script>
 
-  <title>HFUT国创2020-2022</title>
-  
-  <meta name="author" content="Teng Li">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="../imgs/hfut.png">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNSDMFFD9W"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-WNSDMFFD9W');
+	</script>
+
+	<title>HFUT国创2020-2022</title>
+
+	<meta name="author" content="Teng Li">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" type="image/png" href="../imgs/hfut.png">
 </head>
 
-<center><strong><font size="5">基于深度学习的图像多元化增强算法研究及系统实现</font></strong></center>
+<center><strong>
+		<font size="5">基于深度学习的图像多元化增强算法研究及系统实现</font>
+	</strong></center>
 
 <br>
 
@@ -30,439 +34,551 @@
 
 <br><br>
 
-<center><img src="imgs/HFUT-nuietp_intro.png", width="600"></center>
+<center><img src="imgs/HFUT-nuietp_intro.png" , width="600"></center>
 
 <br><br>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-      	<br>
-      	<strong><heading>项目背景</heading></strong>
-      	<p>“人类对视觉美感的追求是无止境的，不但追求保持真实感的图像美化，也追求艺术风格化的图像美化。” 在保持图像真实感前提下的图像美化是人们想要的，在追求多样化视觉效果前提下的图像风格化转变也是人们想要的。</p>
-		<p>由于手机的硬件限制、拍摄环境所限（光照、角度等等）、以及并非所有人都掌握充足的摄影知识等因素，造成我们拍摄的图片往往视觉美感不够强。因此，就需要我们进行图像增强技术的研究。</p>
-		<p>由于绝大多数人并不掌握绘画技巧，因此人们很难随时随地用艺术化形式记录所见。因此，就需要我们研究自然图像自动转换至艺术化风格的技术。</p>
-		<p>这些都属于终端视觉的研究领域，目前是学界和工业界的关注热点，兼具良好的学术研究和商业开发价值。</p>
-		<br>
-      	<strong><heading>项目团队成员</heading></strong>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	<table
+		style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+		<tbody>
 			<tr style="padding:0px">
-				<td style="padding:2.5%;width:20%;max-width:40%">
-				  <a href="imgs/tengli.png"><img style="width:100%;max-width:100%" alt="profile photo" src="imgs/lt_circle.png" class="hoverZoomLink"></a>
-				  <center><strong>黎腾</strong></center>
-				</td>
-				<td style="padding:2.5%;width:20%;max-width:40%">
-				  <a href="img/png"><img style="width:100%;max-width:100%" alt="profile photo" src="imgs/xjy_circle.png" class="hoverZoomLink"></a>
-				  <center><strong>谢建宇</strong></center>
-				</td>
-				<td style="padding:2.5%;width:20.5%;max-width:40%">
-				  <a href="img/png"><img style="width:100%;max-width:100%" alt="profile photo" src="imgs/nhl_circle.png" class="hoverZoomLink"></a>
-				  <center><strong>牛洪亮</strong></center>
-				</td>
-				<td style="padding:2.5%;width:20%;max-width:40%">
-				  <a href="imgs/JPG"><img style="width:100%;max-width:100%" alt="profile photo" src="imgs/jzq_circle.png" class="hoverZoomLink"></a>
-				  <center><strong>巨棕全</strong></center>
-				</td>
-				<td style="padding:2.5%;width:20%;max-width:40%">
-				  <a href="imgs/"><img style="width:100%;max-width:100%" alt="profile photo" src="imgs/alw_circle.png" class="hoverZoomLink"></a>
-				  <center><strong>安鎏玮</strong></center>
-				</td>
-			</tr>
-        </tbody>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        	<tr style="padding:0px">
-				[<a href="http://info.terrytengli.com">黎腾</a>]：合肥工业大学大三本科在读，是宣城校区计算机科学与技术18-2班学生。项目中负责图像处理算法研究以及部分深度学习框架的搭建。
-			</tr>
-			<br><br>
-			<tr>
-				[<a href="https://github.com/immocreat">谢建宇</a>]：合肥工业大学大三本科在读，是宣城校区计算机科学与技术18-2班学生。项目中负责交互系统应用后端开发、云服务器维护搭建、部分深度学习框架的搭建。
-			</tr>
-			<br><br>
-			<tr>
-				[<a href="https://github.com/TWLK139">牛洪亮</a>]：合肥工业大学大三本科在读，是宣城校区计算机科学与技术18-2班学生。项目中负责交互系统应用的前端开发。
-			</tr>
-			<br><br>
-			<tr>
-				[<a href="https://github.com/1536696608">巨棕全</a>]：合肥工业大学大三本科在读，是宣城校区计算机科学与技术18-2班学生。
-			</tr>
-			<br><br>
-			<tr>
-				[<a href="https://github.com/amazedan">安鎏玮</a>]：合肥工业大学大三本科在读，是宣城校区计算机科学与技术18-2班学生。
-			<br><br>
-        </tbody>
-    	</table>
+				<td style="padding:0px">
+					<br>
+					<strong>
+						<heading>项目背景</heading>
+					</strong>
+					<p>“人类对视觉美感的追求是无止境的，不但追求保持真实感的图像美化，也追求艺术风格化的图像美化。”
+						在保持图像真实感前提下的图像美化是人们想要的，在追求多样化视觉效果前提下的图像风格化转变也是人们想要的。</p>
+					<p>由于手机的硬件限制、拍摄环境所限（光照、角度等等）、以及并非所有人都掌握充足的摄影知识等因素，造成我们拍摄的图片往往视觉美感不够强。因此，就需要我们进行图像增强技术的研究。</p>
+					<p>由于绝大多数人并不掌握绘画技巧，因此人们很难随时随地用艺术化形式记录所见。因此，就需要我们研究自然图像自动转换至艺术化风格的技术。</p>
+					<p>这些都属于终端视觉的研究领域，目前是学界和工业界的关注热点，兼具良好的学术研究和商业开发价值。</p>
+					<br>
+					<strong>
+						<heading>项目团队成员</heading>
+					</strong>
+					<table
+						style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+						<tbody>
+							<tr style="padding:0px">
+								<td style="padding:2.5%;width:20%;max-width:40%">
+									<a href="imgs/tengli.png"><img style="width:100%;max-width:100%" alt="profile photo"
+											src="imgs/lt_circle.png" class="hoverZoomLink"></a>
+									<center><strong>黎腾</strong></center>
+								</td>
+								<td style="padding:2.5%;width:20%;max-width:40%">
+									<a href="img/png"><img style="width:100%;max-width:100%" alt="profile photo"
+											src="imgs/xjy_circle.png" class="hoverZoomLink"></a>
+									<center><strong>谢建宇</strong></center>
+								</td>
+								<td style="padding:2.5%;width:20.5%;max-width:40%">
+									<a href="img/png"><img style="width:100%;max-width:100%" alt="profile photo"
+											src="imgs/nhl_circle.png" class="hoverZoomLink"></a>
+									<center><strong>牛洪亮</strong></center>
+								</td>
+								<td style="padding:2.5%;width:20%;max-width:40%">
+									<a href="imgs/JPG"><img style="width:100%;max-width:100%" alt="profile photo"
+											src="imgs/jzq_circle.png" class="hoverZoomLink"></a>
+									<center><strong>巨棕全</strong></center>
+								</td>
+								<td style="padding:2.5%;width:20%;max-width:40%">
+									<a href="imgs/"><img style="width:100%;max-width:100%" alt="profile photo"
+											src="imgs/alw_circle.png" class="hoverZoomLink"></a>
+									<center><strong>安鎏玮</strong></center>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table
+						style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+						<tbody>
+							<tr style="padding:0px">
+								[<a
+									href="http://info.terrytengli.com">黎腾</a>]：合肥工业大学大三本科在读，是宣城校区计算机科学与技术18-2班学生。项目中负责图像处理算法研究以及部分深度学习框架的搭建。
+							</tr>
+							<br><br>
+							<tr>
+								[<a
+									href="https://github.com/immocreat">谢建宇</a>]：合肥工业大学大三本科在读，是宣城校区计算机科学与技术18-2班学生。项目中负责交互系统应用后端开发、云服务器维护搭建、部分深度学习框架的搭建。
+							</tr>
+							<br><br>
+							<tr>
+								[<a
+									href="https://github.com/TWLK139">牛洪亮</a>]：合肥工业大学大三本科在读，是宣城校区计算机科学与技术18-2班学生。项目中负责交互系统应用的前端开发。
+							</tr>
+							<br><br>
+							<tr>
+								[<a href="https://github.com/1536696608">巨棕全</a>]：合肥工业大学大三本科在读，是宣城校区计算机科学与技术18-2班学生。
+							</tr>
+							<br><br>
+							<tr>
+								[<a href="https://github.com/amazedan">安鎏玮</a>]：合肥工业大学大三本科在读，是宣城校区计算机科学与技术18-2班学生。
+								<br><br>
+						</tbody>
+					</table>
 
-    	<br>
-    	<strong><heading>项目进度</heading></strong>
-    	<br>
+					<br>
+					<strong>
+						<heading>项目进度</heading>
+					</strong>
+					<br>
 
-    	
-		<div class="timeline-small">
-		    <div class="timeline-small-body">
-		        <ul>
-		        	<li>
-		                <div class="bullet default"></div>
-		                <div class="date">2020年05月</div>
-		                <div class="desc">
-		                    <h3>项目立项</h3>
-		                    <h4>我们的项目“基于深度学习的图像多元化增强算法研究及系统实现”通过答辩，正式立项。</h4>
-		                </div>
-		            </li>
-		            <li>
-		                <div class="bullet default"></div>
-		                <div class="date">2020年11月</div>
-		                <div class="desc">
-		                    <h3>工程开发成果 & 成果转化 - Ss watermark</h3>
-		                    <h4>我们完成了开发名为 <strong><a href="#工程性成果-sswatermark">Ss watermark</a></strong> 的图像隐式水印工具，并集成到了安卓端。 同期，该项成果获得了安徽省大学生信息安全作品赛二等奖。</h4>
-		                </div>
-		            </li>
-					<li>
-		                <div class="bullet default"></div>
-		                <div class="date">2021年03月</div>
-		                <div class="desc">
-		                    <h3>学术研究成果 - CAD/Graphics</h3>
-		                    <h4>我们的研究成果 <strong><a href="#学术成果-RetinexPencil">RetinexPencil</a></strong> - “Robust Pencil Drawing Generation via Fast Retinex Decomposition” 被 <strong>CAD/Graphics 2021</strong> (CCF推荐会议)预接收。 </h4>
-		                </div>
-		            </li>
-		            <li>
-		                <div class="bullet default"></div>
-		                <div class="date">2021年04月</div>
-		                <div class="desc">
-		                    <h3>工程开发成果 - AImage</h3>
-		                    <h4>我们完成了开发名为 <strong><a href="#工程性成果-aimage">AImage</a></strong> 的艺术化图像创作平台，并集成到了安卓端。</h4>
-		                </div>
-		            </li>
-		            <li>
-		                <div class="bullet default"></div>
-		                <div class="date">2021年04月</div>
-		                <div class="desc">
-		                    <h3>项目中期检查</h3>
-		                    <h4>我们顺利通过了合肥工业大学国家级大学生创新创业计划中期检查。</h4>
-		                </div>
-					</li>
-					<li>
-		                <div class="bullet default"></div>
-		                <div class="date">2021年03月</div>
-		                <div class="desc">
-		                    <h3>学术研究成果 - CAD/Graphics</h3>
-		                    <h4>我们的研究成果 <strong><a href="#学术成果-RetinexPencil">RetinexPencil</a></strong> - “Robust Pencil Drawing Generation via Fast Retinex Decomposition” 已被 <strong>CAD/Graphics 2021</strong> (CCF推荐会议)接收。同时，文章已发表在 <strong>Computers & Graphics</strong> 期刊(CCF推荐期刊，JCR图形学一区)。</h4>
-		                </div>
-		            </li>
-					<li>
-		                <div class="bullet default"></div>
-		                <div class="date">2021年05月</div>
-		                <div class="desc">
-		                    <h3>工程开发成果转化 - AImage</h3>
-		                    <h4>我们开发名为 <strong><a href="#工程性成果-aimage">AImage</a></strong> 的艺术化图像创作平台，获得了中国计算机设计大赛软件应用开发（非游戏类）组省赛资格。</h4>
-		                </div>
-					</li>
-					<li>
-		                <div class="bullet empty"></div>
-		                <div class="date">2021年05月</div>
-		                <div class="desc">
-		                    <h3>工程开发成果 - AI Album</h3>
-		                    <h4>我们目前正在开发名为 <strong><a href="#工程性成果-aialbm">AI Album</a></strong> 的个人智能相册管理系统。</h4>
-		                </div>
-		            </li>
-		            <li>
-		                <div class="bullet empty"></div>
-		                <div class="date">2022年04月</div>
-		                <div class="desc">
-		                    <h3>项目结题</h3>
-		                    <h4>至此，我们的项目应在学术研究和工程开发两个方面均圆满完成，并取得相应的成果。</h4>
-		                </div>
-		            </li>
-		        </ul>
-		    </div>
-		</div>
 
-		<br><br>
+					<div class="timeline-small">
+						<div class="timeline-small-body">
+							<ul>
+								<li>
+									<div class="bullet default"></div>
+									<div class="date">2020年05月</div>
+									<div class="desc">
+										<h3>项目立项</h3>
+										<h4>我们的项目“基于深度学习的图像多元化增强算法研究及系统实现”通过答辩，正式立项。</h4>
+									</div>
+								</li>
+								<li>
+									<div class="bullet default"></div>
+									<div class="date">2020年11月</div>
+									<div class="desc">
+										<h3>工程开发成果 & 成果转化 - Ss watermark</h3>
+										<h4>我们完成了开发名为 <strong><a href="#工程性成果-sswatermark">Ss watermark</a></strong>
+											的图像隐式水印工具，并集成到了安卓端。 同期，该项成果获得了安徽省大学生信息安全作品赛二等奖。</h4>
+									</div>
+								</li>
+								<li>
+									<div class="bullet default"></div>
+									<div class="date">2021年03月</div>
+									<div class="desc">
+										<h3>学术研究成果 - CAD/Graphics</h3>
+										<h4>我们的研究成果 <strong><a href="#学术成果-RetinexPencil">RetinexPencil</a></strong> -
+											“Robust Pencil Drawing Generation via Fast Retinex Decomposition” 被
+											<strong>CAD/Graphics 2021</strong> (CCF推荐会议)预接收。 </h4>
+									</div>
+								</li>
+								<li>
+									<div class="bullet default"></div>
+									<div class="date">2021年04月</div>
+									<div class="desc">
+										<h3>工程开发成果 - AImage</h3>
+										<h4>我们完成了开发名为 <strong><a href="#工程性成果-aimage">AImage</a></strong>
+											的艺术化图像创作平台，并集成到了安卓端。</h4>
+									</div>
+								</li>
+								<li>
+									<div class="bullet default"></div>
+									<div class="date">2021年04月</div>
+									<div class="desc">
+										<h3>项目中期检查</h3>
+										<h4>我们顺利通过了合肥工业大学国家级大学生创新创业计划中期检查。</h4>
+									</div>
+								</li>
+								<li>
+									<div class="bullet default"></div>
+									<div class="date">2021年03月</div>
+									<div class="desc">
+										<h3>学术研究成果 - CAD/Graphics</h3>
+										<h4>我们的研究成果 <strong><a href="#学术成果-RetinexPencil">RetinexPencil</a></strong> -
+											“Robust Pencil Drawing Generation via Fast Retinex Decomposition” 已被
+											<strong>CAD/Graphics 2021</strong> (CCF推荐会议)接收。同时，文章已发表在 <strong>Computers &
+												Graphics</strong> 期刊(CCF推荐期刊，JCR图形学一区)。</h4>
+									</div>
+								</li>
+								<li>
+									<div class="bullet default"></div>
+									<div class="date">2021年05月</div>
+									<div class="desc">
+										<h3>学术研究成果 - MTAP</h3>
+										<h4>我们的研究成果 <strong><a href="#学术成果-SemPencil">SemPencil</a></strong> -
+											“Enhancing Pencil Drawing Patterns via Using Semantic Information”已发表在 
+											<strong>Multimedia Tools and Applications</strong> 期刊(CCF推荐期刊，JCR多媒体一区)。</h4>
+									</div>
+								</li>
+								<li>
+									<div class="bullet default"></div>
+									<div class="date">2021年05月</div>
+									<div class="desc">
+										<h3>工程开发成果转化 - AImage</h3>
+										<h4>我们开发名为 <strong><a href="#工程性成果-aimage">AImage</a></strong>
+											的艺术化图像创作平台，获得了中国计算机设计大赛软件应用开发（非游戏类）组省赛资格。</h4>
+									</div>
+								</li>
+								<li>
+									<div class="bullet empty"></div>
+									<div class="date">2021年05月</div>
+									<div class="desc">
+										<h3>工程开发成果 - AI Album</h3>
+										<h4>我们目前正在开发名为 <strong><a href="#工程性成果-aialbm">AI Album</a></strong>
+											的个人智能相册管理系统。</h4>
+									</div>
+								</li>
+								<li>
+									<div class="bullet empty"></div>
+									<div class="date">2022年04月</div>
+									<div class="desc">
+										<h3>项目结题</h3>
+										<h4>至此，我们的项目应在学术研究和工程开发两个方面均圆满完成，并取得相应的成果。</h4>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
 
-		<div id="学术性成果"></div>
-    	<strong><heading>学术性成果</heading></strong>
-    	<br><br>
-    	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-		  
-          <tr onmouseout="MTAP_D_20_03169_stop()" onmouseover="MTAP_D_20_03169_start()">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <div class="one">
-                <div class="two" id="MTAP-D-20-03169" style="opacity: 0;"><video width="118%" muted="" autoplay="" loop="">
-                <source src="imgs/MTAP-D-20-03169.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src="imgs/MTAP-D-20-03169_ori.png", width="190">
-              </div>
-              <script type="text/javascript">
-                function MTAP_D_20_03169_start() {
-                  document.getElementById('MTAP-D-20-03169').style.opacity = "1";
-                }
-                function MTAP_D_20_03169_stop() {
-                  document.getElementById('MTAP-D-20-03169').style.opacity = "0";
-                }
-                inerf_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
-              <!-- TO-DO add doi -->
-			  <div id="学术成果-SemPencil"></div>
-              <a href="">
-                <papertitle>Enhancing Pencil Drawing Patterns via Using Semantic Information</papertitle>
-              </a>
-              <br><br>
-              <a href="http://www.terrytengli.com/">黎腾</a>, 
-              <a href="https://github.com/immocreat">谢建宇</a>, 
-              <a href="https://github.com/TWLK139">牛洪亮</a>, 
-              <a href="http://ci.hfut.edu.cn/2020/1209/c11505a245814/page.htm">郝世杰*</a>
-              <br>
-              <em>MULTIMEDIA TOOLS AND APPLICATIONS(MTAP)</em>, 2021
-              <br>
-              [主页] /
-              [源代码] / 
-              [论文(pdf)] 
-              <!-- TO-DO add paper attachment -->
-              <p></p>
-              <p>本文中提出了融合图像语义信息，增强铅笔画（灰度风格、彩色风格）纹理的模型。</p>
-            </td>
-          </tr>
+					<br><br>
 
-		  
-		  <tr onmouseout="CAG_D_21_00089_stop()" onmouseover="CAG_D_21_00089_start()">
-			<td style="padding:20px;width:25%;vertical-align:top">
-			  <div class="one">
-				<div class="two" id="CAG-D-21-00089" style="opacity: 0;"><video width="118%" muted="" autoplay=""
-					loop="">
-					<source src="imgs/CAG-D-21-00089.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				  </video></div>
-				<img src="imgs/CAG-D-21-00089.png" , width="190">
-			  </div>
-			  <script type="text/javascript">
-				function CAG_D_21_00089_start() {
-				  document.getElementById('CAG-D-21-00089').style.opacity = "1";
-				}
-				function CAG_D_21_00089_stop() {
-				  document.getElementById('CAG-D-21-00089').style.opacity = "0";
-				}
-				inerf_stop()
-			  </script>
-			</td>
-			<td style="padding:20px;width:75%;vertical-align:top">
-				<!-- TO-DO add doi -->
-				<div id="学术成果-RetinexPencil"></div>
-				<a href="">
-				<papertitle>Robust Pencil Drawing Generation via Fast Retinex Decomposition</papertitle>
-				</a>
-			  <br><br>
-			  <a href="http://www.terrytengli.com/">黎腾</a>,
-			  <a href="http://ci.hfut.edu.cn/2020/1209/c11505a245814/page.htm">郝世杰*</a>,
-			  <a href="http://ci.hfut.edu.cn/2020/1209/c11505a245815/page.htm">郭艳蓉</a>
-			  <br>
-			  <em>CAD/Graphics</em> 2021, published on <em>Computers & Graphics</em> (C & G) journal
-			  <br>
-			  [<a href="https://hfut-nuietp.github.io/retinexpencil/">主页</a>] /
-              [<a href="https://github.com/HFUT-NUIETP/retinexpencil">代码</a>] / 
-              [论文(pdf)] 
-              <!-- TO-DO add paper attachment -->
-			  <br><br>
-			  本文中提出了一种新颖的 <em>Retinex</em> 分解模型自动生成铅笔画的模型。
-			</td>
-		  </tr>
+					<div id="学术性成果"></div>
+					<strong>
+						<heading>学术性成果</heading>
+					</strong>
+					<br><br>
+					<table
+						style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+						<tbody>
 
-        </tbody></table>
+							<tr onmouseout="MTAP_D_20_03169_stop()" onmouseover="MTAP_D_20_03169_start()">
+								<td style="padding:20px;width:25%;vertical-align:top">
+									<div class="one">
+										<div class="two" id="MTAP-D-20-03169" style="opacity: 0;"><video width="118%"
+												muted="" autoplay="" loop="">
+												<source src="imgs/MTAP-D-20-03169.mp4" type="video/mp4">
+												Your browser does not support the video tag.
+											</video></div>
+										<img src="imgs/MTAP-D-20-03169_ori.png" , width="190">
+									</div>
+									<script type="text/javascript">
+										function MTAP_D_20_03169_start() {
+											document.getElementById('MTAP-D-20-03169').style.opacity = "1";
+										}
+										function MTAP_D_20_03169_stop() {
+											document.getElementById('MTAP-D-20-03169').style.opacity = "0";
+										}
+										inerf_stop()
+									</script>
+								</td>
+								<td style="padding:20px;width:75%;vertical-align:top">
+									<!-- TO-DO add doi -->
+									<div id="学术成果-SemPencil"></div>
+									<a href="">
+										<papertitle>Enhancing Pencil Drawing Patterns via Using Semantic Information
+										</papertitle>
+									</a>
+									<br><br>
+									<a href="http://www.terrytengli.com/">黎腾</a>,
+									<a href="https://github.com/immocreat">谢建宇</a>,
+									<a href="https://github.com/TWLK139">牛洪亮</a>,
+									<a href="http://ci.hfut.edu.cn/2020/1209/c11505a245814/page.htm">郝世杰*</a>
+									<br>
+									<em>MULTIMEDIA TOOLS AND APPLICATIONS(MTAP)</em>, 2021
+									<br>
+									[<strong><a href="https://hfut-nuietp.github.io/sempencil/">主页</a></strong>] /
+									[<strong><a href="https://github.com/HFUT-NUIETP/sempencil">代码</a></strong>] /
+									[<strong><a href="https://drive.google.com/uc?export=view&id=1AhJ8Fd1Md1qwzUfWEuwgQi2Z2qMlh-9S">论文(pdf)</a></strong>]
+									<!-- TO-DO add paper attachment -->
+									<p></p>
+									<p>本文中提出了融合图像语义信息，增强铅笔画（灰度风格、彩色风格）纹理的模型。</p>
+								</td>
+							</tr>
 
-        </div>
-    	<strong><heading>工程性成果</heading></strong>
-    	<br><br>
-    	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-			<div id="工程性成果"></div>
-			<tr onmouseout="ss_watermark_stop()" onmouseover="ss_watermark_start()">
-				<td style="padding:20px;width:25%;vertical-align:top">
-				  <div class="one">
-				    <div class="two" id="ss_watermark" style="opacity: 0;"><video height="110%" muted="" autoplay="" loop="">
-				    <source src="imgs/Ss watermark.mp4" type="video/mp4">
-				    Your browser does not support the video tag.
-				    </video></div>
-				    <img src="imgs/Ss watermark.png", width="190">
-				  </div>
-				  <script type="text/javascript">
-				    function ss_watermark_start() {
-				      document.getElementById('ss_watermark').style.opacity = "1";
-				    }
-				    function ss_watermark_stop() {
-				      document.getElementById('ss_watermark').style.opacity = "0";
-				    }
-				    inerf_stop()
-				  </script>
-				</td>
-				<td style="padding:20px;width:75%;vertical-align:top">
-					<div id="工程性成果-sswatermark"></div>
-				  <a href="">
-				    <papertitle>Ss watermark</papertitle></div>
-				  </a>
-				  <br><br>
-				  <a href="https://github.com/TWLK139">牛洪亮</a>,
-				  <a href="http://info.terrytengli.com/">黎腾</a>, 
-				  <a href="">何凯柯</a>
-				  <br>
-				  <em>安徽省大学生信息安全作品赛二等奖获奖作品</em>, 2021
-				  <br>
-				  [<a href="https://hfut-nuietp.github.io/SS-watermark/">主页</a>] /
-				  [<a href="https://github.com/litun5315/apps/releases/download/v0.0/Ss.watermark.apk">应用(apk)</a>] /
-				  [<a href="https://github.com/HFUT-NUIETP/SS-watermark">源代码</a>]
-				  <p></p>
-				  <p>一个隐式图像水印工具（安卓交互终端），其功能已迁移至<a href="#工程性成果-aimage"><strong>AImage</strong></a>，将不再维护。</p>
-				</td>
-			</tr>
-			
-			<tr onmouseout="aimage_stop()" onmouseover="aimage_start()">
-				<td style="padding:20px;width:25%;vertical-align:top">
-				  <div class="one">
-				    <div class="two" id="aimage" style="opacity: 0;"><video width="120" height="120" muted="" autoplay="" loop="">
-				    <source src="imgs/aimage.png" type="video/mp4">
-				    Your browser does not support the video tag.
-				    </video></div>
-                    <center><img src="imgs/aimage.png" alt="aimage" width="140" height="130"></center>
-				  </div>
-				  <script type="text/javascript">
-				    function aimage_start() {
-				      document.getElementById('aimage').style.opacity = "1";
-				    }
-				    function aimage_stop() {
-				      document.getElementById('aimage').style.opacity = "0";
-				    }
-				    inerf_stop()
-				  </script>
-				</td>
-				<td style="padding:20px;width:75%;vertical-align:top">
-				  <div id="工程性成果-aimage"></div>
-				  <a href="">
-				    <papertitle>AImage</papertitle></div>
-				  </a>
-				  <br><br>
-				  <a href="https://github.com/immocreat">谢建宇</a>,
-				  <a href="http://info.terrytengli.com/">黎腾</a>, 
-				  <a href="https://fzxiao.top/">韦万宇</a>,
-				  <a href="https://github.com/TWLK139">牛洪亮</a>
-				  <br>
-				  <em>全国XXXXXXXXX赛(XXXXXXX组)</em>, 2021
-				  <!-- <em>全国大学生计算机设计大赛(软件应用与开发组)</em>, 2021 -->
-				  <br>
-				  <!-- [<a href="file:///C:/Users/teng/Documents/0-code/git/litun5315.github.io/apps/ss-watermark.html">主页</a>] /
+
+							<tr onmouseout="CAG_D_21_00089_stop()" onmouseover="CAG_D_21_00089_start()">
+								<td style="padding:20px;width:25%;vertical-align:top">
+									<div class="one">
+										<div class="two" id="CAG-D-21-00089" style="opacity: 0;"><video width="118%"
+												muted="" autoplay="" loop="">
+												<source src="imgs/CAG-D-21-00089.mp4" type="video/mp4">
+												Your browser does not support the video tag.
+											</video></div>
+										<img src="imgs/CAG-D-21-00089.png" , width="190">
+									</div>
+									<script type="text/javascript">
+										function CAG_D_21_00089_start() {
+											document.getElementById('CAG-D-21-00089').style.opacity = "1";
+										}
+										function CAG_D_21_00089_stop() {
+											document.getElementById('CAG-D-21-00089').style.opacity = "0";
+										}
+										inerf_stop()
+									</script>
+								</td>
+								<td style="padding:20px;width:75%;vertical-align:top">
+									<!-- TO-DO add doi -->
+									<div id="学术成果-RetinexPencil"></div>
+									<a href="">
+										<papertitle>Robust Pencil Drawing Generation via Fast Retinex Decomposition
+										</papertitle>
+									</a>
+									<br><br>
+									<a href="http://www.terrytengli.com/">黎腾</a>,
+									<a href="http://ci.hfut.edu.cn/2020/1209/c11505a245814/page.htm">郝世杰*</a>,
+									<a href="http://ci.hfut.edu.cn/2020/1209/c11505a245815/page.htm">郭艳蓉</a>
+									<br>
+									<em>CAD/Graphics</em> 2021, published on <em>Computers & Graphics</em> (C & G)
+									journal
+									<br>
+									[<strong><a href="https://hfut-nuietp.github.io/retinexpencil/">主页</a></strong>] /
+									[<strong><a href="https://github.com/HFUT-NUIETP/retinexpencil">代码</a></strong>] /
+									[<strong><a href="https://drive.google.com/uc?export=view&id=1VA6RObeL2BUQdBorKU6IAI6tWM-q9pEf">论文(pdf)</a></strong>]
+									<br><br>
+									本文中提出了一种新颖的 <em>Retinex</em> 分解模型自动生成铅笔画的模型。
+								</td>
+							</tr>
+
+						</tbody>
+					</table>
+
+					</div>
+					<strong>
+						<heading>工程性成果</heading>
+					</strong>
+					<br><br>
+					<table
+						style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+						<tbody>
+							<div id="工程性成果"></div>
+							<tr onmouseout="ss_watermark_stop()" onmouseover="ss_watermark_start()">
+								<td style="padding:20px;width:25%;vertical-align:top">
+									<div class="one">
+										<div class="two" id="ss_watermark" style="opacity: 0;"><video height="110%"
+												muted="" autoplay="" loop="">
+												<source src="imgs/Ss watermark.mp4" type="video/mp4">
+												Your browser does not support the video tag.
+											</video></div>
+										<img src="imgs/Ss watermark.png" , width="190">
+									</div>
+									<script type="text/javascript">
+										function ss_watermark_start() {
+											document.getElementById('ss_watermark').style.opacity = "1";
+										}
+										function ss_watermark_stop() {
+											document.getElementById('ss_watermark').style.opacity = "0";
+										}
+										inerf_stop()
+									</script>
+								</td>
+								<td style="padding:20px;width:75%;vertical-align:top">
+									<div id="工程性成果-sswatermark"></div>
+									<a href="">
+										<papertitle>Ss watermark</papertitle>
+										</div>
+									</a>
+									<br><br>
+									<a href="https://github.com/TWLK139">牛洪亮</a>,
+									<a href="http://info.terrytengli.com/">黎腾</a>,
+									<a href="">何凯柯</a>
+									<br>
+									<em>安徽省大学生信息安全作品赛二等奖获奖作品</em>, 2021
+									<br>
+									[<strong><a href="https://hfut-nuietp.github.io/SS-watermark/">主页</a></strong>] /
+									[<strong><a
+										href="https://github.com/litun5315/apps/releases/download/v0.0/Ss.watermark.apk">应用(apk)</a></strong>]
+									/
+									[<strong><a href="https://github.com/HFUT-NUIETP/SS-watermark">源代码</a></strong>] /
+									[<strong><a href="#工程性成果-sswatermark-vdo">演示视频</a></strong>]
+									<p></p>
+									<p>一个隐式图像水印工具（安卓交互终端），其功能已迁移至<a
+											href="#工程性成果-aimage"><strong>AImage</strong></a>，将不再维护。</p>
+								</td>
+							</tr>
+
+							<tr onmouseout="aimage_stop()" onmouseover="aimage_start()">
+								<td style="padding:20px;width:25%;vertical-align:top">
+									<div class="one">
+										<div class="two" id="aimage" style="opacity: 0;"><video width="120" height="120"
+												muted="" autoplay="" loop="">
+												<source src="imgs/aimage.png" type="video/mp4">
+												Your browser does not support the video tag.
+											</video></div>
+										<center><img src="imgs/aimage.png" alt="aimage" width="140" height="130">
+										</center>
+									</div>
+									<script type="text/javascript">
+										function aimage_start() {
+											document.getElementById('aimage').style.opacity = "1";
+										}
+										function aimage_stop() {
+											document.getElementById('aimage').style.opacity = "0";
+										}
+										inerf_stop()
+									</script>
+								</td>
+								<td style="padding:20px;width:75%;vertical-align:top">
+									<div id="工程性成果-aimage"></div>
+									<a href="">
+										<papertitle>AImage</papertitle>
+										</div>
+									</a>
+									<br><br>
+									<a href="https://github.com/immocreat">谢建宇</a>,
+									<a href="http://info.terrytengli.com/">黎腾</a>,
+									<a href="https://fzxiao.top/">韦万宇</a>,
+									<a href="https://github.com/TWLK139">牛洪亮</a>
+									<br>
+									<!-- <em>全国XXXXXXXXX赛(XXXXXXX组)</em>, 2021 -->
+									<em>全国大学生计算机设计大赛(软件应用与开发组)</em>, 2021
+									<br>
+									<!-- [<a href="file:///C:/Users/teng/Documents/0-code/git/litun5315.github.io/apps/ss-watermark.html">主页</a>] /
 				  [<a href="https://github.com/litun5315/apps/releases/download/v0.0/Ss.watermark.apk">应用(apk)</a>] /
 				  [<a href="https://github.com/HFUT-NUIETP/SS-watermark">源代码</a>] -->
-				  目前作品还未提交竞赛评审，客户端暂不开放测试、相关资料暂不开源。
-				  
-				  <p></p>
-				  <p>一个艺术化图像创作平台（安卓交互终端），持续维护中。</p>
-				</td>
-			</tr>
+									[<strong><a href="#工程性成果-aimage-vdo">演示视频</a></strong>]
+									<br>
+									目前作品还未提交竞赛评审，客户端暂不开放测试、相关资料暂不开源。
 
-			<tr onmouseout="aialbm_stop()" onmouseover="aialbm_start()">
-				<td style="padding:20px;width:25%;vertical-align:top">
-				  <div class="one">
-				    <div class="two" id="aialbm" style="opacity: 0;"><video width="120" height="120" muted="" autoplay="" loop="">
-				    <source src="imgs/blank.png" type="video/mp4">
-				    Your browser does not support the video tag.
-				    </video></div>
-                    <center><img src="imgs/blank.png" alt="aialbm" width="140" height="130"></center>
-				  </div>
-				  <script type="text/javascript">
-				    function aialbm_start() {
-				      document.getElementById('aialbm').style.opacity = "1";
-				    }
-				    function aialbm_stop() {
-				      document.getElementById('aialbm').style.opacity = "0";
-				    }
-				    inerf_stop()
-				  </script>
-				</td>
-				<td style="padding:20px;width:75%;vertical-align:top">
-				  <div id="工程性成果-aialbm"></div>
-				  <a href="">
-				    <papertitle>AI Album</papertitle></div>
-				  </a>
-				  <br><br>
-				  <a href="https://github.com/immocreat">谢建宇</a>,
-				  <a href="https://github.com/TWLK139">牛洪亮</a>,
-				  <a href="http://info.terrytengli.com/">黎腾</a> 
-				  <br>
-				  <em>中国XXXXXXXXX赛</em>, 2021
-				  <!-- <em>全国大学生计算机设计大赛(软件应用与开发组)</em>, 2021 -->
-				  <br>
-				  <!-- [<a href="file:///C:/Users/teng/Documents/0-code/git/litun5315.github.io/apps/ss-watermark.html">主页</a>] /
+									<p></p>
+									<p>一个艺术化图像创作平台（安卓交互终端），持续维护中。</p>
+								</td>
+							</tr>
+
+							<tr onmouseout="aialbm_stop()" onmouseover="aialbm_start()">
+								<td style="padding:20px;width:25%;vertical-align:top">
+									<div class="one">
+										<div class="two" id="aialbm" style="opacity: 0;"><video width="120" height="120"
+												muted="" autoplay="" loop="">
+												<source src="imgs/blank.png" type="video/mp4">
+												Your browser does not support the video tag.
+											</video></div>
+										<center><img src="imgs/blank.png" alt="aialbm" width="140" height="130">
+										</center>
+									</div>
+									<script type="text/javascript">
+										function aialbm_start() {
+											document.getElementById('aialbm').style.opacity = "1";
+										}
+										function aialbm_stop() {
+											document.getElementById('aialbm').style.opacity = "0";
+										}
+										inerf_stop()
+									</script>
+								</td>
+								<td style="padding:20px;width:75%;vertical-align:top">
+									<div id="工程性成果-aialbm"></div>
+									<a href="">
+										<papertitle>AI Album</papertitle>
+										</div>
+									</a>
+									<br><br>
+									<a href="https://github.com/immocreat">谢建宇</a>,
+									<a href="https://github.com/TWLK139">牛洪亮</a>,
+									<a href="http://info.terrytengli.com/">黎腾</a>
+									<br>
+									<em>中国XXXXXXXXX赛</em>, 2021
+									<!-- <em>全国大学生计算机设计大赛(软件应用与开发组)</em>, 2021 -->
+									<br>
+									<!-- [<a href="file:///C:/Users/teng/Documents/0-code/git/litun5315.github.io/apps/ss-watermark.html">主页</a>] /
 				  [<a href="https://github.com/litun5315/apps/releases/download/v0.0/Ss.watermark.apk">应用(apk)</a>] /
 				  [<a href="https://github.com/HFUT-NUIETP/SS-watermark">源代码</a>] -->
-				  目前作品还未提交竞赛评审，客户端暂不开放测试、相关资料暂不开源。
-				  
-				  <p></p>
-				  <p>一个个人智能相册管理系统（PC交互终端），持续维护中。</p>
+									目前作品还未提交竞赛评审，客户端暂不开放测试、相关资料暂不开源。
+
+									<p></p>
+									<p>一个个人智能相册管理系统（PC交互终端），持续维护中。</p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<strong>
+						<heading>团队成员获奖</heading>
+					</strong>
+					<br><br>
+					<ul>
+						<li>安徽大学生数学建模竞赛，一等奖， <strong>黎腾</strong>, 2020.10</li>
+						<br>
+						<li>安徽大学生数学建模竞赛，二等奖， <strong>安鎏玮</strong>, 2020.10</li>
+						<br>
+						<li>全国大学生数学建模竞赛，二等奖， <strong>黎腾</strong>, 2020.10</li>
+						<br>
+						<li>安徽省程序设计大赛，二等奖， <strong>安鎏玮</strong>, 2020.10</li>
+						<br>
+						<li>大数据与人工智能应用竞赛，一等奖，<strong>谢建宇</strong>, 2020.11</li>
+						<br>
+						<li>大数据与人工智能应用竞赛，二等奖，<strong>黎腾</strong>, 2020.11</li>
+						<br>
+						<li>安徽省大学生信息安全竞赛作品赛，二等奖，<strong>黎腾, 牛洪亮</strong>, 2020.11</li>
+						<br>
+						<li>全国高校计算机能力挑战赛大数据应用赛，一等奖，<strong>谢建宇</strong>, 2020.12</li>
+						<br>
+						<li>中国计算机设计大赛（安徽赛区）, 一等奖, <strong>谢建宇，黎腾</strong>, 2021.05</li>
+						<br>
+					</ul>
+					<br><br>
+
+					<strong>
+						<heading>相关演示视频</heading>
+					</strong>
+					<br><br>
+					<table
+						style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+						<tbody>
+							<tr>
+								<center><strong>
+										<font size="5">Ss watermark</font>
+									</strong></center>
+								<br>
+								<div id="工程性成果-sswatermark-vdo"></div>
+								<center><iframe width="540" height="303" src="https://www.youtube.com/embed/ZB452XvCViw"
+										frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe></center>
+							</tr>
+							<br><br>
+							<tr>
+								<center><strong>
+										<font size="5">AImage</font>
+									</strong></center>
+								<br>
+								<div id="工程性成果-aimage-vdo"></div>
+								<center><iframe width="540" height="303" src="https://www.youtube.com/embed/M0nXC-fSkIY"
+										frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe></center>
+							</tr>
+							<br><br>
+							<tr>
+								<center><strong>
+										<font size="5">AI Album (On the way ...)</font>
+									</strong></center>
+								<br>
+								<div id="工程性成果-aialbm-vdo"></div>
+								<center><iframe width="540" height="303" src="" frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe></center>
+							</tr>
+
+						</tbody>
+					</table>
+
+					<strong>
+						<heading>致谢</heading>
+					</strong>
+					<br>
+					<ul>
+						<li>该项目由合肥工业大学国家级大学生创新创业计划资助，项目编号为<b>202010359089</b>。</li>
+						<li>感谢项目进行过程中，
+							<strong><a href="http://ci.hfut.edu.cn/2020/1209/c11505a245814/page.htm">郝世杰</a></strong>老师、
+							<strong><a href="http://ci.hfut.edu.cn/2020/1209/c11505a245803/page.htm">刘建</a></strong>老师等
+							对本项目的大力支持。</li>
+						<li>感谢团队外的朋友（
+							<strong><a href="">韦万宇</a></strong>同学、
+							<strong><a href="">何凯柯</a></strong>同学
+							）对本项目的帮助，不胜感激。</li>
+					</ul>
+
+					<table
+						style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+						<tbody>
+							<tr>
+								<td style="padding:0px">
+									<br><br><br><br><br>
+									<p style="text-align:right;font-size:small;">
+										Issues contact at email, last update: Jun 2021.
+									</p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
 				</td>
 			</tr>
-        </tbody></table>
-
-        <strong><heading>团队成员获奖</heading></strong>
-        <br><br>
-        <ul>
-        	<li>安徽大学生数学建模竞赛，一等奖， <strong>黎腾</strong>, 2020.10</li>
-        	<li>安徽大学生数学建模竞赛，二等奖， <strong>安鎏玮</strong>, 2020.10</li>
-        	<li>全国大学生数学建模竞赛，二等奖， <strong>黎腾</strong>, 2020.10</li>
-        	<li>安徽省程序设计大赛，二等奖， <strong>安鎏玮</strong>, 2020.10</li>
-        	<li>大数据与人工智能应用竞赛，一等奖，<strong>谢建宇</strong>, 2020.11</li>
-        	<li>大数据与人工智能应用竞赛，二等奖，<strong>黎腾</strong>, 2020.11</li>
-        	<li>安徽省大学生信息安全竞赛作品赛，二等奖，<strong>黎腾, 牛洪亮</strong>, 2020.11</li>
-        	<li>全国高校计算机能力挑战赛大数据应用赛，一等奖，<strong>谢建宇</strong>, 2020.12</li>
-        </ul>
-        <br><br>
-
-        <strong><heading>相关演示视频</heading></strong>
-        <br><br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        	<tr>
-        		<center><strong><font size="5">Ss watermark</font></strong></center>
-        		<br>
-        		<center><iframe width="540" height="303" src="https://www.youtube.com/embed/ZB452XvCViw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-        	</tr>
-        	<br><br>
-        	<tr>
-        		<center><strong><font size="5">AImage</font></strong></center>
-        		<br>
-        		<center><iframe width="540" height="303" src="https://www.youtube.com/embed/M0nXC-fSkIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-			</tr>
-			<br><br>
-			<tr>
-        		<center><strong><font size="5">AI Album (On the way ...)</font></strong></center>
-        		<br>
-        		<center><iframe width="540" height="303" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-        	</tr>
-
-        </tbody></table>
-
-    	<strong><heading>致谢</heading></strong>
-    	<br>
-    	<ul>
-    		<li>该项目由合肥工业大学国家级大学生创新创业计划资助，项目编号为<b>202010359089</b>。</li>
-    		<li>感谢项目进行过程中，<a href="http://ci.hfut.edu.cn/2020/1209/c11505a245814/page.htm">郝世杰</a>老师对本项目的大力支持。</li>
-    		<li>感谢团队外的朋友（韦万宇同学、何凯柯同学）对本项目的帮助，不胜感激。</li>
-    	</ul>
-
-    	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                  Issues contact at email, last update: May 2021.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-
-      </td>
-    </tr>
-  </tbody>
-  </table>
+		</tbody>
+	</table>
 
 </body>
-</html>
 
+</html>
