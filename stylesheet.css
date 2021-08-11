@@ -134,7 +134,7 @@ span.highlight {
 
 .timeline-small {
             max-width: 750px;
-            max-height: 1000px;
+            max-height: 10000px;
             overflow: hidden;
             margin: 30px auto 0;
             box-shadow: 0 0 40px #a0a0a0;
